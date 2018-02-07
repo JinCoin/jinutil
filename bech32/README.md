@@ -1,7 +1,7 @@
 bech32
 ==========
 
-[![Build Status](http://img.shields.io/travis/btcsuite/btcutil.svg)](https://travis-ci.org/btcsuite/btcutil)
+[![Build Status](http://img.shields.io/travis/btcsuite/jinutil.svg)](https://travis-ci.org/btcsuite/btcutil)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
 [![GoDoc](https://godoc.org/github.com/btcsuite/btcutil/bech32?status.png)](http://godoc.org/github.com/btcsuite/btcutil/bech32)
 
@@ -13,7 +13,7 @@ Test vectors from BIP 173 are added to ensure compatibility with the BIP.
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/btcsuite/btcutil/bech32
+$ go get -u github.com/JinCoin/jinutil/bech32
 ```
 
 ## Examples

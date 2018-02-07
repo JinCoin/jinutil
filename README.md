@@ -1,30 +1,30 @@
-btcutil
+jinutil
 =======
 
-[![Build Status](http://img.shields.io/travis/roasbeef/btcutil.svg)]
+[![Build Status](http://img.shields.io/travis/roasbeef/jinutil.svg)]
 (https://travis-ci.org/roasbeef/btcutil) [![Coverage Status]
-(http://img.shields.io/coveralls/roasbeef/btcutil.svg)]
+(http://img.shields.io/coveralls/roasbeef/jinutil.svg)]
 (https://coveralls.io/r/roasbeef/btcutil?branch=master) [![ISC License]
 (http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
 [![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg)]
-(http://godoc.org/github.com/roasbeef/btcutil)
+(http://godoc.org/github.com/JinCoin/jinutil)
 
-Package btcutil provides bitcoin-specific convenience functions and types.
+package jinutil provides jincoin-specific convenience functions and types.
 A comprehensive suite of tests is provided to ensure proper functionality.  See
 `test_coverage.txt` for the gocov coverage report.  Alternatively, if you are
 running a POSIX OS, you can run the `cov_report.sh` script for a real-time
 report.
 
-This package was developed for btcd, an alternative full-node implementation of
-bitcoin which is under active development by Conformal.  Although it was
-primarily written for btcd, this package has intentionally been designed so it
+This package was developed for jind, an alternative full-node implementation of
+jincoin which is under active development by Conformal.  Although it was
+primarily written for jind, this package has intentionally been designed so it
 can be used as a standalone package for any projects needing the functionality
 provided.
 
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/roasbeef/btcutil
+$ go get -u github.com/JinCoin/jinutil
 ```
 
 ## GPG Verification Key
@@ -49,5 +49,5 @@ verify the signature perform the following:
 
 ## License
 
-Package btcutil is licensed under the [copyfree](http://copyfree.org) ISC
+package jinutil is licensed under the [copyfree](http://copyfree.org) ISC
 License.
